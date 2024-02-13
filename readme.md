@@ -93,7 +93,7 @@ CSS:
    1.Inline CSS-:
        <body>
        <h1 style="color:red">Today is thursday</h1>
-       <p style="backgroundcolor:yellow">Today we started CSS</p>
+       <p style="background-color:yellow">Today we started CSS</p>
        </body>    
    2.Internal CSS-:
       <head>
@@ -102,7 +102,7 @@ CSS:
             color:red;
          }
          p{
-            backgroundcolor:blue;
+            background-color:blue;
          }
       </style>
       </head>
@@ -181,3 +181,128 @@ CSS:
 
    5.Element Selector:-
      By selecting one single  single element we have to design is called the element selector.
+
+VERSION CONTROL SYSTEM:-
+   git and github are those open source version control system.
+   We used version control system to store our code, share our code and collaborate our projects with each other.
+   example of VCS is git,github,gitlab...
+
+  9-02-24
+********************
+
+Typography:-
+--------------------
+  <b>
+  <i>
+  <u>
+  <small>
+  <big>
+  <em>
+  <del>
+  <strong>
+  <sup>
+  <sup>
+
+Colors in CSS:-
+--------------------
+  RGB - (Red,Green,Blue)
+  HEX - (#0-9,A-F)
+  HSLA - (Hue,Saturation,Lightness,Alpha)   alpha(0-1)
+  HSL - (Hue,Saturation,Lightness)
+  RGBA - {Red,Green,Blue,Alpha}
+
+Text properties:-
+--------------------
+  color
+  line-height
+  letter-spacing
+  text-transform
+  text-decoration
+  text-indent
+
+Border property:-
+--------------------
+
+Font properties:-
+--------------------
+  font-family
+  font-size
+  font-style
+  font-weight
+  font-variant
+
+12-02-24
+-----------------------
+Display properties:-
+-----------------------
+   inline:-Takes only the space required by the element.
+   block:-Takes full space available in width.
+   inline-block:-similar to inline but we can set margin and padding.
+   none:-to remove element from document flow.
+
+Practice set-3:-
+1.Create a webpage layout with a header ,a footer,& a content area containing 3 divs.
+set the height & width of div to 10px.
+2.add border to all the divs.
+3.add a different background color to each div with an opacity 0.5
+4.give the content area an appropriate height.
+
+Position property:-
+-----------------------
+  static:-default position
+  relative:-element is relative to itself.
+  absolute:-positioned relative to its closest position ancestors.
+
+
+z-index:-
+--------------
+It indicates the stack level of element , overlapping element with a larger z-index cover those with a similar one.
+  z-index : auto
+  z-index : 1/2/.....
+  z-index : -1/-2/.....
+
+ Background image:-
+ ---------------------
+ used to set an image as background
+
+ background image : url("image,jpg");
+
+ background-Size:-
+
+ background-size:cover;
+
+Practice set-4:-
+-------------------
+Create the following layout using the given html.
+1.Give the div a height,width & some background image.
+2.Use the appropriate position property for the element to place it at the right end of the page,(The div should not move even on scroll)
+3.Use z-index to place the div on the top of page.
+
+
+Flexbox (flexible box):-
+---------------------------
+It is a one dimensional layout method for arranging item in rows or columns.
+
+Flexbox direction:-
+----------------------------
+It sets roes flex items are placed in the flex container.
+
+  flex-direction:  row;
+  flex-direction:  row-reverse;
+  flex-direction:  column;
+  flex-direction:  column-reverse;
+
+Flex properties:-
+-------------------
+  justify-content : alignment along the main axis
+                    (flex-start (default), center , flex-end, space-evenly ,space-between , space around)
+   flex-wrap : (wrap, wrap-reverse , nowrap );
+   align-items : alignment along the cross axis.
+   align-content : alignment of space between & around the content along cross-axis.
+   align-self : alignment individual along the cross axis.
+
+Practice set-5:-
+
+1.Create a navbar with 4 option in the form of anchor tags inside list items. Now, use flexbox to place them all spaced equally in a single line.
+2.Use flexbox to center one div inside another div.
+3.Which has higher priority  - align-item or align-self

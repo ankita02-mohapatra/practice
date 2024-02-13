@@ -8,3 +8,32 @@ h1{
 button{
     background-color: green;
 }
+.demo{
+    color: white;
+    background-color: black;
+    
+}
+.items{
+    list-style: none;
+    display: flex;
+    text-indent: 40px ;
+}
+#id1{
+    padding-right: 200px;
+}
+
+p{
+    color: red;
+}
+.demo1{
+    display: none;
+}
+.demo2{
+    display: inline;
+}
+.demo3{
+    display: block;
+}
+.demo4{
+    display: inline-block;
+}
